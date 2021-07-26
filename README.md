@@ -8,24 +8,22 @@
 
 ---
 
-- ### And user can read different categories of news as we have provided different options to user in navbar.
+- ### And user can read different categories of news as I have provided different options to user in *Navbar*.
 
 ---
 
 - ### For the news data, I've used NewsAPI
 
-  - [NewsAPI.org API](https://www.clarifai.com/models/ai-face-detection)
+  - [NewsAPI.org API](https://newsapi.org/)
 
   ***
 
-- ### For the voice search feature , I've used speech-recognition i.e. npm package
-  - [speech-recognition API](https://www.clarifai.com/models/ai-face-detection)
+- ### For the voice search feature , I've used speech-recognition i.e. a npm package
+  - [speech-recognition API](https://www.npmjs.com/package/react-speech-recognition)
 
 ---
 
-- ### React app is deployed on **GitHub Pages**.
-
-  - [View React App](https://pratikbondre29.github.io/face-detector/)
+- ### I guess the free plan simply is not longer available in production that's why I haven't deployed the app.
 
 ---
 
