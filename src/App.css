@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+body {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  background-color: #5737d6;
+}
+
+.bg-inverse {
+  background-color: #000;
+}
+
+.card {
+  margin: 20px;
+  border-radius: 15px;
+  padding: 8px;
+  box-shadow: 5px 5px 15px #969292;
+  transition: 0.5s;
+}
+.card img {
+  border-radius: 15px;
+  height: 200px;
+  width: 100%;
+}
+
+.card-text {
+  font-size: 16px;
+  font-weight: 600;
+}
+a {
+  color: #cc0000;
+  font-weight: 600;
+}
+a:hover {
+  color: #cc0000;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+.card-toggle {
+  background-color: rgb(65, 64, 64);
+  color: white;
+}
+
+/* Header */
+
+.header {
+  text-align: center;
+  margin: 30px 0;
+  color: white;
+}
+.header h3 {
+  font-size: 40px;
+  font-family: "Monoton", cursive;
+  letter-spacing: 5px;
+}
+@media (max-width: 600px) {
+  .header {
+    margin: 20px 0;
+  }
+  .header h3 {
+    font-size: 35px;
+  }
+  .result h4 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+}

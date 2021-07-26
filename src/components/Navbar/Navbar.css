@@ -1,0 +1,28 @@
+nav {
+  border-radius: 12px;
+}
+.nav-item {
+  margin: 0px 10px;
+}
+.nav-item a {
+  font-size: 18px;
+}
+.navbar-brand {
+  cursor: not-allowed;
+}
+.navbar-toggler {
+  box-shadow: none;
+}
+@media (max-width: 600px) {
+  nav {
+    margin-bottom: 10px;
+  }
+  .navbar-brand {
+    font-size: 18px;
+  }
+}
+@media (max-width: 300px) {
+  .navbar-brand {
+    font-size: 15px;
+  }
+}

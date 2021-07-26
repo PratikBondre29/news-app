@@ -1,0 +1,76 @@
+.btn-container {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  position: fixed;
+}
+.outer {
+  position: relative;
+  background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+}
+.icon {
+  margin-top: 5px;
+  font-size: 30px !important;
+}
+.circle {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.outer button,
+.outer span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.outer button {
+  background: #111;
+  color: #f2f2f2;
+  outline: none;
+  border: none;
+  font-size: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  z-index: 8;
+}
+.outer button:focus,
+.outer button:active {
+  outline: 0 !important;
+  border: 0 !important;
+  box-shadow: none;
+}
+.circle button {
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+}
+
+.outer span:nth-child(1) {
+  filter: blur(7px);
+}
+.outer span:nth-child(2) {
+  filter: blur(14px);
+}
+
+.listen {
+  animation: rotate 1s linear infinite;
+}
+@keyframes rotate {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+@media (max-width: 600px) {
+  .btn-container {
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+    position: fixed;
+  }
+}
